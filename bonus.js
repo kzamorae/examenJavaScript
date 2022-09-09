@@ -1,7 +1,7 @@
 let cadenaDeTexto = "www.techacademy.com";
 console.log(cadenaDeTexto);
 
-let convertirTexto = "";
+let modificacionTexto = " ";
 let encuentraPunto = 0;
 
 for (let index = 0 ; index <= cadenaDeTexto.length; index++) {
@@ -11,11 +11,10 @@ for (let index = 0 ; index <= cadenaDeTexto.length; index++) {
         letra = letra.toUpperCase();
     }
 
-    modificacionTexto = convertirTexto + letra;
+    modificacionTexto = modificacionTexto + letra;
     if (letra==".") {
         encuentraPunto = 1
     }
 }
 
-//console.log(convertirTexto);
 console.log(modificacionTexto);
