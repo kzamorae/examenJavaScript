@@ -1,11 +1,8 @@
 let cadenaDeTexto = "www.techacademy.com";
 console.log(cadenaDeTexto);
 
-<<<<<<< HEAD
+
 let modificacionTexto = " ";
-=======
-let modificacionTexto = "";
->>>>>>> 24c5a4ba1e011be9439d875fbbd1261676423f42
 let encuentraPunto = 0;
 
 for (let index = 0 ; index <= cadenaDeTexto.length; index++) {
@@ -21,8 +18,4 @@ for (let index = 0 ; index <= cadenaDeTexto.length; index++) {
     }
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 24c5a4ba1e011be9439d875fbbd1261676423f42
 console.log(modificacionTexto);
